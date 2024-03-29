@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Password-Protected Page</title>
+  <script>
+    function sub() {
+      var password = document.getElementById("password").value;
+      if (password === "2013") {
+        window.location.href = "https://notes.io/qWaaZ";
+      } else {
+        alert("Incorrect password. Please try again also get rekt.");
+      }
+    }
+  </script>
+</head>
+<body>
+  
+  <input type="password" id="password" placeholder="Enter password">
+  <button onclick="sub()">Submit</button>
+</body>
+</html>
